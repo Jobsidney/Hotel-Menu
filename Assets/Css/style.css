@@ -1,0 +1,73 @@
+ul,li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    clear: both;
+    margin-top: 0px;
+    float: right;
+    font-size: medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.intro{
+    display: flexbox;
+    flex-direction: row;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    clear: both;
+    margin-bottom: 20px;
+}
+.container{
+    background-color: #EC4067;
+    height: 150px;
+    border-radius: 10px;
+    margin-left:50px;
+    margin-right: 50px;  
+    align-items: center;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+img{
+    width: 500px;
+    border-radius: 10px;
+    height: 300px;
+    margin: 5px;
+    
+    
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    justify-content:center;
+    position: absolute;
+}
+.menuName{
+    padding-top: 260px;
+    padding-left: 20px;
+    position:absolute;
+    color:white;
+    font-weight: 700;
+    font-size: large;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.name{
+    color: rgb(8, 8, 8);
+    background-color: antiquewhite;
+    width:max-content;
+    border: 20px;
+    font-family:sans-serif;
+
+}
+.name::first-letter{
+    color: #EC4067;
+}
